@@ -1,0 +1,43 @@
+{
+  
+  "display": {
+    "title": "BHM Store",
+    "description": "Bernhardhmayer watch&jewelly store",
+    "navmapThumbnail": "images/BHMThumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "-136,-37"
+    ],
+    "base": "-136,-37"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 15.11,
+        "y": 0,
+        "z": 7.84
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {}
+  
+}
